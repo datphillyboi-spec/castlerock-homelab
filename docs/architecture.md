@@ -21,12 +21,11 @@ The existing portfolio documents a primary Pi-hole on a Raspberry Pi and a backu
 
 The main Uptime Kuma instance monitors services. A separate Raspberry Pi instance monitors CastleRock availability. This reduces dependence on the host being monitored, but it does not remove shared dependencies such as household power, switching, or the internet connection.
 
-## Evidence to add during future lab work
+## Planned node expansion
 
-| Exercise | Record |
+| Planned node | Purpose |
 | --- | --- |
-| VLAN isolation | Source and destination zones, intended policy, observed allow/deny result |
-| DNS failover | Failure injected, DNS responses, detection time, failover time, recovery behavior |
-| Service update | Version before/after, backup checkpoint, health check, rollback procedure |
-| Outage monitoring | Detection time, notification receipt, recovery notification |
+| Plex media server | A dedicated node for media-server workloads |
+| Proxmox backup server | A separate node for Proxmox backups |
 
+The expansion will be built and configured from scratch, applying existing networking and systems knowledge to network configuration, storage, service deployment, monitoring, and recovery.

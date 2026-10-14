@@ -6,6 +6,10 @@
 
 CastleRock is my personal environment for building and operating networked services. I use it to practice routing and switching, network segmentation, DNS availability, Linux virtualization, container operations, monitoring, and recovery. This repository documents the physical equipment and connects it to the operational evidence in my portfolio.
 
+## Why CastleRock?
+
+The CastleRock name is inspired by Casterly Rock from *Game of Thrones*. As the lab grows, I plan to continue the Game of Thrones naming theme for future nodes.
+
 ## Physical lab
 
 ![Rack networking, laptop, Hubitat, and Pi-hole](images/rack-overview.png)
@@ -56,6 +60,10 @@ CastleRock is my personal environment for building and operating networked servi
 - Check the DNS service itself instead of relying only on host reachability.
 - Monitor critical hosts from another device so a host failure does not also silence its monitor.
 - Document maintenance, failure symptoms, recovery steps, and remaining limitations.
+
+## Planned hardware upgrade
+
+I plan to replace the ThinkPad T480 with a tiny form factor desktop once I find an affordable used system. The T480 remains part of the current setup until that replacement is acquired.
 
 ## Next learning objectives
 

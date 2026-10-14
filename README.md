@@ -4,7 +4,7 @@
 
 [Portfolio](https://lab.techresqsolutions.com) · [Hardware gallery](https://lab.techresqsolutions.com/homelab.html) · [GitHub profile](https://github.com/datphillyboi-spec)
 
-CastleRock is my personal environment for building and operating networked services. I use it to practice routing and switching, network segmentation, DNS availability, Linux virtualization, container operations, monitoring, and recovery. This repository documents the physical equipment and connects it to the operational evidence in my portfolio.
+CastleRock is my personal environment for building and operating networked services. It gives me hands-on ownership of infrastructure from the ground up: planning the network, deploying hardware and services, configuring access, and maintaining the environment. I apply my networking and systems knowledge across routing and switching, VLAN segmentation, DNS availability, virtualization, containers, monitoring, and recovery. This repository documents the equipment, architecture, and projects in my homelab.
 
 ## Why CastleRock?
 
@@ -65,10 +65,10 @@ The CastleRock name is inspired by Casterly Rock from *Game of Thrones*. As the 
 
 I plan to replace the ThinkPad T480 with a tiny form factor desktop once I find an affordable used system. The T480 remains part of the current setup until that replacement is acquired.
 
-## Next learning objectives
+## Planned homelab expansion
 
-- Build repeatable VLAN and inter-VLAN access-policy test cases.
-- Deepen routing and troubleshooting practice using packet captures and isolated lab scenarios.
-- Record controlled DNS failover and recovery results, including detection and recovery timing.
-- Expand infrastructure security monitoring and document resource requirements before deployment.
+- Add a dedicated node for a Plex media server.
+- Add a separate backup-server node for Proxmox.
+- Build and configure the new nodes from scratch, including their network, storage, services, monitoring, and recovery procedures.
 
+These projects extend the homelab and put existing networking and systems knowledge into practice through complete, hands-on builds.

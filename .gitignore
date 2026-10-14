@@ -1,0 +1,12 @@
+# Keep local credentials, original camera files, and private exports out of the public repository.
+.env
+.env.*
+!.env.example
+*.DNG
+*.dng
+private/
+backups/
+*.key
+*.pem
+.DS_Store
+Thumbs.db
